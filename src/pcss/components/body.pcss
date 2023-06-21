@@ -1,0 +1,57 @@
+@custom-media --viewport-medium (min-width: 768px);
+@custom-media --viewport-large (min-width: 1024px);
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+.box {
+  position: absolute;
+  top: 0;
+  display: grid;
+  flex-wrap: wrap;
+  place-items: center;
+  font-size: 20px;
+  background-color: darkblue;
+
+  &__img {
+    background: rgb(198 138 253);
+  }
+}
+
+:--heading {
+  color: darkred;
+}
+
+@media (--viewport-medium) {
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (--viewport-medium) {
+  .box1 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (--viewport-medium) {
+  .box2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (--viewport-medium) {
+  .box3 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (--viewport-medium) {
+  .box4 {
+    width: 100px;
+    height: 100px;
+  }
+}

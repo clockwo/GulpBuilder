@@ -1,0 +1,14 @@
+{
+  "cSpell.words": ["basepath", "pcss"],
+  "path-autocomplete.pathMappings": {
+    "@img": "${workspaceRoot}/src/img",
+    "@js": "${workspaceRoot}/src/assets/js"
+  },
+  "stylelint.config": {
+    "extends": ["stylelint-config-standard", "stylelint-config-recess-order"]
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
+}
